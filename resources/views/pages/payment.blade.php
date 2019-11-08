@@ -85,6 +85,7 @@
                                     @php $count=1; @endphp
                                     @foreach($unpaid_records as $record)
                                     @php 
+                                    echo "Hello";
                                     // printx($record);
                                         $penalty = $record->custype_due_date_penalty;
                                         $duration = $record->custype_due_date_duration;
